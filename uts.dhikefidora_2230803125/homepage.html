@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        a {
+            color: inherit;
+            text-decoration: none
+        }
+
+        /* Container holding the image and the text */
+        .container {
+            position: relative;
+            text-align: center;
+            color: rgb(203, 204, 214);
+        }
+
+        /* Bottom left text */
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+        }
+
+        /* Top left text */
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+        }
+
+        /* Top right text */
+        .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        }
+
+        /* Bottom right text */
+        .bottom-right {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+        }
+
+        /* Centered text */
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+
+        .outerBox {
+            margin: auto;
+            border: 3px rgb(234, 236, 241);
+            background-color: #f2f5fa;
+            width: 70%;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .box {
+            padding: 0px;
+        }
+
+        .inside-outerBox {
+            background-color: #3367b3;
+            padding: 3px;
+        }
+
+        .spacing {
+            width: 2%;
+        }
+
+        .column {
+            display: flex;
+            width: 100;
+        }
+
+        .buttonBox {
+            margin: auto;
+            width: 100%;
+            background-color: #a4a5b6;
+            text-align: center;
+            padding: 1px;
+
+        }
+
+        .myDiv {
+            border: 5px outset rgb(27, 22, 22);
+            background-color: lightblue;
+            text-align: center;
+        }
+
+        .circle-corner-left {
+            height: 25%;
+            width: 30%;
+            border-top-left-radius: 12%;
+            background-color: #3367b3;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .inside-corner-box {
+            height: 100;
+            width: 350px;
+            background-color: #e8edf0;
+            padding: 3px;
+            text-align: center;
+        }
+
+        .square {
+            height: 150px;
+            width: 150px;
+            background-color: #555eda;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="outerBox">
+        <div class="column">
+            <div class="circle-corner-left">
+                <p>
+                    <img src="logo1.PNG" style="text-align:center;width:60%;height:50%;" alt="UIN">
+                </p>
+                <div class="buttonBox">
+                    <a href="HomePage.html">
+                        HOME
+                    </a>
+                    <a href="Tentang.html">
+                        TENTANG
+                    </a>
+                    <a href="Galeri.html">
+                        GALERI
+                    </a>
+                    <a href="BukuTamu.html">
+                        BUKU TAMU
+                    </a>
+                </div>
+            </div>
+
+            <div class="inside-outerBox"></div>
+            <div class="box">
+                <div class="container">
+                    <img src="logo1.PNG" style="text-align:center;width:100%;height:100%;">
+                    <div class="bottom-right">
+                        <p style="font-size:20px"> <br style="font-size:10px">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <h1 style="font-size:60px;text-align:center;">Laboratorium Terpadu</h1>
+        <p> Laboratorium merupakan salah satu sarana untuk mendukung aktivitas belajar mengajar, penelitian serta
+            peningkatan keterampilan mahasiswa.
+        <p>
+        <div class="circle-corner-left" style="width:100%;height:70px">
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
